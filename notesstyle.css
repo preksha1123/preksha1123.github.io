@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('background.jpg');
+    background-size: 100%;
+    
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 800px;
+    font-size: 25px;
+}
+
+.notes-section, .buttons-section {
+    padding: 20px;
+
+}
+
+.notes-section {
+    flex: 2;
+    border-right: 1px solid #ddd;
+}
+
+.buttons-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn-group-vertical button {
+    background-color:rgb(218, 172, 104);
+    color: rgb(23, 12, 12);
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-group-vertical button:hover {
+    background-color: rgb(207, 158, 84);
+}

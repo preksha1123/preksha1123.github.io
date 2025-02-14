@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Calibri, sans-serif;
+}
+
+.navbar {
+    background: rgb(94, 52, 0);
+    padding: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+.navdiv ul {
+    list-style: none;
+    display: flex;
+}
+
+.navdiv li {
+    margin-right: 25px;
+}
+
+.navdiv a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}

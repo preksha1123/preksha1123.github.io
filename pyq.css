@@ -1,0 +1,25 @@
+body{
+    background-image: url('background.jpg');
+    background-size: 100%;
+}
+.image-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-links a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-links img {
+    width: 250px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-links img:hover {
+    transform: scale(1.1);
+}
